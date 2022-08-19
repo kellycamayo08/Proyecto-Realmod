@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+body {
+  background-image: url("../images/fondobanner.png");
+}
+
+nav {
+  height: 70px;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #E9E9E9;
+}
+
+.btnAdd {
+  position: relative;
+  left: 300px;
+  border: none;
+  color: black;
+  background-color: transparent;
+  height: 50px;
+  width: 350px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+main {
+  margin: 20px 250px;
+}
+
+main h1 {
+  color: #00C194;
+}
+
+main label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main form {
+  font-family: 'Ubuntu';
+}
+
+main .btn {
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: #00C194;
+  height: 50px;
+  width: 350px;
+}
+
+main .btn:hover {
+  background-color: #FFFFFF;
+  color: #00C194;
+  border: 2px solid #00C194;
+}
+/*# sourceMappingURL=register.css.map */

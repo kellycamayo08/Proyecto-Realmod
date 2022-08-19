@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    
+    <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg" style="border-bottom:3px solid #E9E9E9 ;">
+    <div class="container-fluid ">
+      <a href="../index.html"><img src="../images/Logo-realmod.svg" width="224px" height="50px" alt="" width="30" height="24"
+        class="d-inline-block align-text-top"></a>
+      <a class="navbar-brand " href="#">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav links" style="--items: 5;">
+            <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+            <a class="nav-link mx-2" href="#">About</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle mx-2" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Property</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <a class="nav-link mx-2">Pages</a>
+            <a class="nav-link mx-2 ">Blog</a>
+            <a class="nav-link ">Contact</a>
+            <span class="line"></span>
+            <a href=""><img src="../images/01.svg" width="24px" height="40px" alt="" class="d-inline-block align-text-top mx-2 img"></a>
+            <a href="./favorito.html"><img src="../images/02.svg" width="24px" height="40px" alt="" class="d-inline-block align-text-top mx-2"> </a>
+              <a href=""><img src="../images/03.svg" width="24px" height="40px" alt="" class="d-inline-block align-text-top mx-2 "
+              style="margin-top:2px ;">  </a>
+              <a href="./carrito.html"><img src="../images/04.svg" width="24px" height="40px" alt="" class="d-inline-block align-text-top mx-2"> </a>
+            
+
+          </div>
+        </div>
+    </div>
+  </nav>
+
+    <h1 class="text-center m-4">Administrador</h1>
+    
+<main class="text-center" >
+    <div class=" d-flex  flex-column   " >
+        <form class="row g-3 p-5 mx-5"  >
+            <div class="col-md-6">
+              <label for="title" class="form-label">Titulo</label>
+              <input type="text" class="form-control" id="titulo" >
+            </div>
+            <div class="col-md-6">
+              <label for="price" class="form-label">Precio</label>
+              <input type="number" class="form-control" id="precio" >
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="descripcion" ></textarea>
+                <label for="floatingTextarea">Descripción</label>
+              </div>
+            <div class="col-12">
+              <label for="" class="form-label"> Ubicación</label>
+              <input type="text" class="form-control" id="ubicacion" placeholder="" >
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Imagen</label>
+              <input type="text" class="form-control" id="imagen" >
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Tipo de Propiedad</label>
+              <input type="text" class="form-control" id="tipo" >
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Habitaciones</label>
+                <input type="number" class="form-control" id="habitaciones" >
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Baños</label>
+                <input type="number" class="form-control" id="baños" >
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Contrato</label>
+                <input type="text" class="form-control" id="contrato" >
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Tamaño de la Propiedad</label>
+                <input type="text" class="form-control" id="tamaño" >
+              </div>
+             
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Casa Inteligente</label>
+                <select id="casa" class="form-select" >
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Parqueadero</label>
+                <select id="parqueadero" class="form-select">
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Piscina</label>
+                <select id="piscina" class="form-select" >
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Seguridad Privada</label>
+                <select id="seguridad" class="form-select" >
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Centro Medico</label>
+                <select id="centro" class="form-select" >
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Area de Libreria</label>
+                <select id="libreria" class="form-select" >
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Cama King Size</label>
+                <select id="cama" class="form-select" >
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Zona de Juegos para Niños</label>
+                <select id="zona" class="form-select" >
+                  <option selected>Elige...</option>
+                  <option>si</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Id</label>
+                <input type="number" class="form-control" id="id" >
+              </div>
+              <div class="d-flex">
+            <div class="col">
+              <button id="crear" type="submit" class="btn btn-primary">Crear</button>
+            </div>
+            <div class="col">
+                <button id="buscar"  type="submit" class="btn btn-info">Buscar</button>
+              </div>
+              <div class="col">
+                <button id="editar" type="submit" class="btn btn-secondary">Editar</button>
+              </div>
+            </div>
+          </form>
+    </div>
+   
+
+    <div class="tabla table-responsive">
+        <table class="table table-striped mx-4">
+           
+          </table>
+    </div>
+</main>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="../scripts/crud.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"></script>
+</body>
+</html>

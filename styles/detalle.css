@@ -1,0 +1,88 @@
+nav {
+  border-bottom: 3px solid #E9E9E9;
+}
+
+main {
+  margin: 30px 150px;
+}
+
+main .cont1 {
+  width: 70%;
+}
+
+main .cont1 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main .cont1 h2 {
+  margin: 50px 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 28px;
+  color: #000000;
+}
+
+main .cont1 .cont11 {
+  border: 2px solid black;
+}
+
+main .cont1 .cont11 img {
+  margin: 0;
+}
+
+main .cont1 .cont111 {
+  width: 50%;
+}
+
+main .cont1 .cont111 h6 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+main .cont2 {
+  width: 50%;
+  padding: 50px;
+}
+
+main .cont2 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+main .cont2 p {
+  font-size: 20px;
+}
+
+main .cont2 .mx-2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main .cont2 h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+main .cont2 section {
+  background-color: #F7F7F7;
+}
+
+main .cont2 section:hover {
+  background-color: #F7F7F7 !important;
+}
+
+main .cont2 button {
+  border: none;
+  background-color: #00C194;
+  color: white;
+  margin: 10px;
+  width: 180px;
+  height: 60px;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=detalle.css.map */

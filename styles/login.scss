@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+$blanco: #FFFFFF;
+$verde :#00C194;
+
+
+
+*{
+    font-family: 'Ubuntu';
+}
+body{
+    background-color: #F7F7F7 !important;
+    background-image: url("../images/fondobanner.png");
+}
+nav{
+    height: 70px;
+    background-color: $blanco;
+    border-bottom: 3px solid #E9E9E9;
+}
+form{
+    
+    background-color: $blanco;
+    border-radius: 20px;
+    padding: 30px;
+    h1{
+        color: $verde;
+        margin-bottom: 20px;
+    }
+    label{
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 30px;
+
+    }
+
+    button{
+        background-color: $verde !important;
+        border: none !important;
+        border-radius: 0 !important;
+        margin-left: 150px;
+       
+    }
+    input{
+        margin-left: 30px;
+    }
+}
